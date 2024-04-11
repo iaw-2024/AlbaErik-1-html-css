@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Pacientes con Tailwind CSS</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+
+<body class="bg-gray-100">
+
+    <div class="container mx-auto px-4 py-8">
+        <h1 class="text-3xl font-bold text-center mb-8">Lista de pacientes Tailwind</h1>
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+            <div class="bg-white rounded-lg shadow-md p-6">
+                <h2 class="text-lg font-semibold mb-4">Martina Fernández</h2>
+                <p class="text-gray-600 mb-2">Obra Social: Medicus</p>
+                <p class="text-gray-600 mb-2">Peso: 80 kg</p>
+                <p class="text-gray-600 mb-2">Teléfono: 425698347</p>
+                <p class="text-gray-600 mb-2">Email: MartinaF@gmail.com</p>
+                <p class="text-gray-600 mb-2">Observaciones: Ninguna</p>
+                <button class="bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-600">Editar</button>
+            </div>
+            <div class="bg-white rounded-lg shadow-md p-6">
+                <h2 class="text-lg font-semibold mb-4">Lucas Gómez</h2>
+                <p class="text-gray-600 mb-2">Obra Social: OSDE</p>
+                <p class="text-gray-600 mb-2">Peso: 79 kg</p>
+                <p class="text-gray-600 mb-2">Teléfono: 31452323</p>
+                <p class="text-gray-600 mb-2">Email: LucasG@gmail.com</p>
+                <p class="text-gray-600 mb-2">Observaciones: Ninguna.</p>
+                <button class="bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-600">Editar</button>
+            </div>
+            <div class="bg-white rounded-lg shadow-md p-6">
+                <h2 class="text-lg font-semibold mb-4">Sofía Rodríguez</h2>
+                <p class="text-gray-600 mb-2">Obra Social: Swiss Medical</p>
+                <p class="text-gray-600 mb-2">Peso: 75 kg</p>
+                <p class="text-gray-600 mb-2">Teléfono: 3452345</p>
+                <p class="text-gray-600 mb-2">Email: SofiaR@gmail.com</p>
+                <p class="text-gray-600 mb-2">Observaciones: Ninguna.</p>
+                <button class="bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-600">Editar</button>
+            </div>
+            <div class="bg-white rounded-lg shadow-md p-6">
+                <h2 class="text-lg font-semibold mb-4">Juan Pérez</h2>
+                <p class="text-gray-600 mb-2">Obra Social: Galeno</p>
+                <p class="text-gray-600 mb-2">Peso: 90 kg</p>
+                <p class="text-gray-600 mb-2">Teléfono: 3245236</p>
+                <p class="text-gray-600 mb-2">Email: JuanP@gmail.com</p>
+                <p class="text-gray-600 mb-2">Observaciones: Ninguna.</p>
+                <button class="bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-600">Editar</button>
+            </div>
+            <!-- Repite este bloque para cada paciente -->
+        </div>
+
+        <style>
+            /* Estilos CSS para la botonera */
+            .button-container {
+                text-align: center;
+                margin-top: 20px;
+            }
+
+            .button {
+                display: inline-block;
+                padding: 10px 20px;
+                background-color: #007bff;
+                color: #fff;
+                text-decoration: none;
+                border-radius: 4px;
+                transition: background-color 0.3s ease;
+                margin: 0 5px;
+            }
+
+            .button:hover {
+                background-color: #0056b3;
+            }
+        </style>
+
+        <div class="button-container">
+            <a href="\index.html" class="button">Inicio</a>
+            <a href="\listado\bootstrap\listadoBootstrap.html" class="button">Listas Boostrap</a>
+            <a href="\listado\html_css\listadoBasico.html" class="button">Listas HTML</a>
+            <a href="..\..\formulario\tailwindcss\formularioTailwind.html" class="button">Agregar</a>
+        </div>
+    </div>
+
+</body>
+
+</html>
